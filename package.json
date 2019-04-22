@@ -6,9 +6,6 @@
   "scripts": {
     "start": "electron main.js"
   },
-  "devDependencies": {
-    "electron": "^0.35.1"
-  },
   "author": "Rhys Perry",
   "license": "GPL-3.0-or-later"
 }
