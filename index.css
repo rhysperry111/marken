@@ -1,0 +1,9 @@
+body {
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+.sidenav {
+  padding: 1em;
+}
