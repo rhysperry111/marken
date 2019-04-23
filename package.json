@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "desription": "A simple utility for viewing, editing and converting markdown files.",
   "main": "main.js",
+  "dependencies": {
+    "showdown": "^1.9.0"
+  },
   "scripts": {
     "start": "electron main.js"
   },
