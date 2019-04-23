@@ -15,8 +15,7 @@ app.on('ready', function() {
     width: 600,
     height: 300
   });
-mainWindow.setMenu(null);
-
+  mainWindow.setMenuBarVisibility(false);
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   mainWindow.on('closed', function() {
