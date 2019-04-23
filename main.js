@@ -1,6 +1,8 @@
 var electron = require('electron');
 var app = electron.app;
 var BrowserWindow = electron.BrowserWindow;
+var showdown = require('showdown');
+converter = new showdown.Converter();
 
 var mainWindow = null;
 
